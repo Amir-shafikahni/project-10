@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    overflow: hidden;
+    height: 5000px;
+}
+
+.contexMenu{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    display: none;
+    width: 195px;
+}
+
+.contexMenu li {
+    padding-left:7px ;
+    border: none;
+}
+
+.contexMenu li span{
+    padding: 5px;
+    font-size: 17px;
+    transition: color 0.3s;
+}
+
+.contexMenu li span:hover{
+    color: rgb(71, 4, 253);
+    cursor: pointer;
+}
+
+.contexMenu li:last-child:hover span{
+    color: red;
+}
